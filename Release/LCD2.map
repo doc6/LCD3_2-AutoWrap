@@ -1,0 +1,494 @@
+Archive member included because of file (symbol)
+
+../liblcd.a(lcd.o)            ./lcd_DisplayConcat.o (lcd_init)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+                              e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o (exit)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+                              ./lcd_DisplayConcat.o (__do_copy_data)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+                              ../liblcd.a(lcd.o) (__do_clear_bss)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                              ./lcd_DisplayConcat.o (sprintf)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(sprintf.o) (vfprintf)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                              e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+                              e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__prologue_saves__)
+e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+                              e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__epilogue_restores__)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+LOAD ./lcd_DisplayConcat.o
+LOAD ../liblcd.a
+LOAD e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a
+LOAD e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a
+LOAD e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xa26
+ *(.vectors)
+ .vectors       0x00000000       0x68 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000068                __ctors_start = .
+ *(.ctors)
+                0x00000068                __ctors_end = .
+                0x00000068                __dtors_start = .
+ *(.dtors)
+                0x00000068                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000068        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000068                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000068        0xc e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000074       0x16 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+                0x00000074                __do_copy_data
+ .init4         0x0000008a       0x10 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+                0x0000008a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000009a        0x8 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000a2        0x4 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+                0x000000a2                __vector_22
+                0x000000a2                __vector_1
+                0x000000a2                __vector_24
+                0x000000a2                __vector_12
+                0x000000a2                __bad_interrupt
+                0x000000a2                __vector_6
+                0x000000a2                __vector_3
+                0x000000a2                __vector_23
+                0x000000a2                __vector_25
+                0x000000a2                __vector_11
+                0x000000a2                __vector_13
+                0x000000a2                __vector_17
+                0x000000a2                __vector_19
+                0x000000a2                __vector_7
+                0x000000a2                __vector_5
+                0x000000a2                __vector_4
+                0x000000a2                __vector_9
+                0x000000a2                __vector_2
+                0x000000a2                __vector_21
+                0x000000a2                __vector_15
+                0x000000a2                __vector_8
+                0x000000a2                __vector_14
+                0x000000a2                __vector_10
+                0x000000a2                __vector_16
+                0x000000a2                __vector_18
+                0x000000a2                __vector_20
+ .text          0x000000a6        0x0 ./lcd_DisplayConcat.o
+ .text          0x000000a6      0x31e ../liblcd.a(lcd.o)
+                0x00000172                lcd_init
+                0x00000252                lcd_clear
+                0x00000262                lcd_display
+                0x000002fa                lcd_fputc
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text          0x000003c4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+                0x000003c4                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup.main
+                0x000003c4       0x90 ./lcd_DisplayConcat.o
+                0x000003c4                main
+ .text.libgcc.mul
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000454        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00000454       0x5e e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                0x00000454                sprintf
+ .text.avr-libc
+                0x000004b2      0x3ae e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x000004b2                vfprintf
+ .text.avr-libc
+                0x00000860       0x16 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00000860                strnlen_P
+ .text.avr-libc
+                0x00000876       0x16 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x00000876                strnlen
+ .text.avr-libc
+                0x0000088c       0x6c e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x0000088c                fputc
+ .text.avr-libc
+                0x000008f8       0xbc e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x000008f8                __ultoa_invert
+ .text.libgcc.mul
+                0x000009b4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x000009b4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x000009b4        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x000009b4       0x38 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+                0x000009b4                __prologue_saves__
+ .text.libgcc.builtins
+                0x000009ec        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x000009ec        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x000009ec        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x000009ec        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x000009ec        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x000009ec       0x36 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+                0x000009ec                __epilogue_restores__
+ .text.libgcc.builtins
+                0x00000a22        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000a22        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+                0x00000a22                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000a22        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+                0x00000a22                _exit
+                0x00000a22                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000a22        0x4 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000a26                _etext = .
+
+.data           0x00800100       0x10 load address 0x00000a26
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100        0x0 ./lcd_DisplayConcat.o
+ .data          0x00800100        0x3 ../liblcd.a(lcd.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .data          0x00800103        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800103        0xd ./lcd_DisplayConcat.o
+ *(.gnu.linkonce.d*)
+                0x00800110                . = ALIGN (0x2)
+                0x00800110                _edata = .
+                0x00800110                PROVIDE (__data_end, .)
+
+.bss            0x00800110        0x1
+                0x00800110                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800110        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x00800110        0x0 ./lcd_DisplayConcat.o
+ .bss           0x00800110        0x1 ../liblcd.a(lcd.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .bss           0x00800111        0x0 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+                0x00800111                PROVIDE (__bss_end, .)
+                0x00000a26                __data_load_start = LOADADDR (.data)
+                0x00000a36                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800111        0x0
+                0x00800111                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800111                PROVIDE (__noinit_end, .)
+                0x00800111                _end = .
+                0x00800111                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x22
+ *(.comment)
+ .comment       0x00000000       0x11 ./lcd_DisplayConcat.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000011       0x11 ../liblcd.a(lcd.o)
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .comment       0x00000000       0x12 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .comment       0x00000000       0x12 e:/other software/eclipse and matlab/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(LCD2.elf elf32-avr)
+LOAD linker stubs
